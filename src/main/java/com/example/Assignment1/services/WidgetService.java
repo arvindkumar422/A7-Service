@@ -18,7 +18,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.Optional;
 
 @RestController
-@CrossOrigin(origins = "https://assignment-6-neu.herokuapp.com")
+@CrossOrigin(origins = "http://localhost:4200")
 public class WidgetService {
 
   @Autowired

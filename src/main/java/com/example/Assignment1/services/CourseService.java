@@ -23,7 +23,7 @@ import java.util.Optional;
 import java.util.Random;
 
 @RestController
-@CrossOrigin(origins = "https://assignment-6-neu.herokuapp.com")
+@CrossOrigin(origins = "http://localhost:4200")
 
 public class CourseService {
   static List<Course> courses = new ArrayList<>();

@@ -5,7 +5,7 @@ function AdminUserServiceClient() {
     this.deleteUser = deleteUser;
     this.updateUser = updateUser;
     this.findUsersByField = findUsersByField;
-    this.url='https://assignment-6-neu.herokuapp.com/api/user';
+    this.url='http://localhost:4200/api/user';
 
     var self = this;
 
@@ -53,7 +53,7 @@ function AdminUserServiceClient() {
 
     function findUsersByField(usernameStr, firstNameStr, lastNameStr, roleStr) {
 
-        var temp_url = 'https://assignment-6-neu.herokuapp.com/api/user';
+        var temp_url = 'http://localhost:4200/api/user';
         if (usernameStr.length != 0) {
             temp_url += '/' + usernameStr;
         }
