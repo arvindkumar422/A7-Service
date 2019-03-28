@@ -20,7 +20,7 @@ import java.util.List;
 import java.util.Optional;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://angular-neu-7.herokuapp.com")
 public class ModuleService {
 
   List<Module> modules = new ArrayList<>();
