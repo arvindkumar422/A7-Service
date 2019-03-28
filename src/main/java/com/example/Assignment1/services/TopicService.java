@@ -1,6 +1,5 @@
 package com.example.Assignment1.services;
 
-import com.example.Assignment1.model.Lesson;
 import com.example.Assignment1.model.Topic;
 import com.example.Assignment1.model.Widget;
 import com.example.Assignment1.repositories.LessonRepository;
